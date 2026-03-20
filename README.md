@@ -178,7 +178,7 @@ Part 4  → Manual HMM vs hmmlearn HMM vs ARIMA Comparison (Step 17)
 ### Time Series Properties
 - AAPL shows a clear **upward trend** over 2015–2023
 - Original series is **non-stationary** (ADF p > 0.05)
-- First differencing makes it **stationary** ✅
+- First differencing makes it **stationary**
 
 ### HMM — From Scratch
 - Successfully identifies Bull/Bear/Neutral market regimes
@@ -276,9 +276,3 @@ This assignment performed Time Series Analysis on AAPL stock prices using four a
 4. **ARIMA(1,1,1):** Fitted on training data, forecasted test prices with measurable RMSE/MAE. Future price forecasting implemented.
 
 **Key takeaway:** Manual HMM builds intuition about HMM mechanics; hmmlearn scales that to real data by learning parameters automatically. Together with ARIMA, these three methods form a comprehensive framework — HMM identifies *what kind of market* we're in, while ARIMA predicts *exact future prices*.
-
----
-
-**Name:** Parimal Ahire  
-**PRN:** 202301040067  
-**Course:** Deep Learning Lab
